@@ -1,0 +1,50 @@
+body {
+    background-color: #3E4259;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container {
+    color:#0E1126;
+    width:350px;
+    height:500px;
+    background-color:#231D26;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    border-radius:5px;
+}
+
+#screen {
+    margin:10px;
+    background-color: #D9BBB8;
+    width:100%;
+    font-size:30px;
+    font-weight: bold;    
+    text-align:end;
+    padding-top:25px;
+    padding-right:20px;
+    border-radius:5px;
+}
+
+.button {
+    cursor:pointer;
+    width:100px;
+    background-color: #BFA8BE;
+    flex-basis:auto;
+    margin:0.5em;
+    text-align: center;
+    padding-top:20px;
+    border-radius:5px;
+    flex-grow:1;
+}
+
+.smaller {
+    width:70px;
+}
+
+#equal {
+    width:157px;
+}
